@@ -47,8 +47,8 @@ Where:
 ## Installation
 
 ```bash
-git clone https://github.com/[username]/cesNMF.git
-cd cesNMF
+git clone https://github.com/ykorte-coder/cesNMF_code.git
+cd cesNMF_code
 pip install -e .
 pip install -r requirements.txt
 ```
@@ -83,26 +83,6 @@ B = result['B']    # covariate contributions
 
 ---
 
-## Demo
-
-Run the complete pipeline on a synthetic dataset (no patient data required):
-
-```bash
-python data/generate_synthetic.py
-python examples/demo_synthetic.py
-```
-
----
-
-## Run tests
-
-```bash
-pip install pytest
-pytest tests/ -v
-```
-
----
-
 ## Hyperparameter guide
 
 | Parameter | Default | Description |
@@ -118,10 +98,11 @@ pytest tests/ -v
 
 ## Data availability
 
-The algorithm code is freely available in this repository. The clinical PDAC
-cohort used in the manuscript (Caris Life Sciences) is not publicly available
-due to institutional data use restrictions. The scRNA-seq reference dataset
-(GSE155698; Steele et al. 2021) is publicly available via NCBI GEO.
+The algorithm code is freely available in this repository. No patient data are
+included. The clinical PDAC cohort used in the manuscript (Caris Life Sciences)
+is not publicly available due to institutional data use restrictions. The
+scRNA-seq reference used to build the signature matrix is the published
+pancreatic single-cell atlas of Loveless et al. (2025).
 
 ---
 
@@ -149,6 +130,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## Contact
 
-Yasmine Baca · [your email]
+Yasmine Baca · ykorte@asu.edu
 Biomedical Informatics and Data Science · Arizona State University
 Senior Molecular Research Analyst · Caris Life Sciences
