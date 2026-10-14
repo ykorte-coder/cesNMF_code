@@ -7,13 +7,13 @@ setup(
     name="cesNMF",
     version="0.1.0",
     author="Yasmine Baca",
-    author_email="[your email]",
+    author_email="ykorte@asu.edu",
     description=(
         "Covariate-Embedded Sparse NMF for bulk tumor CAF deconvolution"
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/[username]/cesNMF",
+    url="https://github.com/ykorte-coder/cesNMF_code",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
